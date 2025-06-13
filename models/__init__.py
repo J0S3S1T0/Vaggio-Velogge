@@ -15,4 +15,6 @@ from .accesorio import accesorio
 from .rol import rol
 from .vehiculo import vehiculo
 from .marca import marca
-from .prueba import prueba
+from .categoriaModelo import categoriaModelo
+from .usuarioAsesoria import usuarioAsesoria
+from .vehiculoAccesorio import vehiculoAccesorio

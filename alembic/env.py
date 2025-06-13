@@ -15,7 +15,7 @@ import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 from db import Base, MARIADB_URL
-from models import usuario, prueba, accesorio, asesor, asesoria, blogExperiencia, categoria, galeriaVehiculoModificado, historialAsesoria, marca, modelo, rol, servicio, tipoAsesoria, usuario, vehiculo
+from models import usuario,categoriaModelo, usuarioAsesoria, vehiculoAccesorio, accesorio, asesor, asesoria, blogExperiencia, categoria, galeriaVehiculoModificado, historialAsesoria, marca, modelo, rol, servicio, tipoAsesoria, usuario, vehiculo
 
 
 
