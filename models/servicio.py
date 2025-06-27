@@ -13,4 +13,4 @@ class servicio(Base):
     asesoriaIdServicio = Column(Integer, ForeignKey("asesoria.idAsesoria"))
 
     # Relación con asesoría
-    asesoriaServicio = relationship("asesoria", back_populates="serviciosAsesoria")
+    # asesoriaServicio = relationship("asesoria", back_populates="serviciosAsesoria")

@@ -10,4 +10,4 @@ class marca(Base):
     paisOrigenMarca = Column(String(50))
 
     # Relación con vehículos
-    vehiculosMarca = relationship("vehiculo", back_populates="marcaVehiculo")
+    # vehiculosMarca = relationship("vehiculo", back_populates="marcaVehiculo")

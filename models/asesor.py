@@ -13,4 +13,4 @@ class asesor(Base):
     documentoAsesor = Column(Integer)
 
     # Relación con asesorías
-    asesoriasAsesor = relationship("asesoria", back_populates="asesorAsesoria")
+    # asesoriasAsesor = relationship("asesoria", back_populates="asesorAsesoria")

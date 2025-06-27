@@ -11,4 +11,4 @@ class rol(Base):
     descripcionRol = Column(String(60))
 
     # Relación con usuarios
-    usuariosRol = relationship("usuario", back_populates="rolUsuario")
+    # usuariosRol = relationship("usuario", back_populates="rolUsuario")

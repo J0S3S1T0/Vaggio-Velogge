@@ -17,6 +17,6 @@ class usuario(Base):
     rolIdUsuario = Column(Integer, ForeignKey("rol.idRol"))
 
     # Relaciones con asesorías, blogs y roles
-    asesoriasUsuario = relationship("asesoria", back_populates="usuarioAsesoria")
-    blogsUsuario = relationship("blogExperiencia", back_populates="usuarioBlog")
-    rolUsuario = relationship("rol", back_populates="usuariosRol")
+    # asesoriasUsuario = relationship("asesoria", back_populates="usuarioAsesoria")
+    # blogsUsuario = relationship("blogExperiencia", back_populates="usuarioBlog")
+    # rolUsuario = relationship("rol", back_populates="usuariosRol")

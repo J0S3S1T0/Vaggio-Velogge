@@ -14,4 +14,4 @@ class modelo(Base):
     categoriaIdModelo = Column(Integer, ForeignKey("categoria.idCategoria"))
 
     # Relación con categoria
-    categoriaModelo = relationship("categoria", back_populates="modelosCategoria")
+    # categoriaModelo = relationship("categoria", back_populates="modelosCategoria")

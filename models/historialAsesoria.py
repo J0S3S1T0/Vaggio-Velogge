@@ -13,4 +13,4 @@ class historialAsesoria(Base):
     asesoriaIdHistorialAsesoria = Column(Integer, ForeignKey("asesoria.idAsesoria"))
     
     # Relación con asesorías
-    asesoriaHistorialAsesoria = relationship("asesoria", back_populates="historialAsesoria")
+    # asesoriaHistorialAsesoria = relationship("asesoria", back_populates="historialAsesoria")
