@@ -14,5 +14,5 @@ class galeriaVehiculoModificado(Base):
     vehiculoIdGaleriaVehiculoModificado = Column(Integer, ForeignKey("vehiculo.idVehiculo"))
 
     # Relaciones con usuario y vehículo
-    usuarioGaleriaVehiculoModificado = relationship("usuario", back_populates="galeriaUsuario")
-    vehiculoGaleriaVehiculoModificado = relationship("vehiculo", back_populates="galeriaVehiculo")
+    # usuarioGaleriaVehiculoModificado = relationship("usuario", back_populates="galeriaUsuario")
+    # vehiculoGaleriaVehiculoModificado = relationship("vehiculo", back_populates="galeriaVehiculo")

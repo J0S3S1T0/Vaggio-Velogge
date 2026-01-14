@@ -17,6 +17,7 @@ class vehiculo(Base):
     marcaIdVehiculo = Column(Integer, ForeignKey("marca.idMarca"))
 
     # Relaciones con modelo, marca y accesorios
-    modeloVehiculo = relationship("modelo", back_populates="vehiculosModelo")
-    marcaVehiculo = relationship("marca", back_populates="vehiculosMarca")
-    accesoriosVehiculo = relationship("accesorio", back_populates="vehiculoAccesorio")
+    # modeloVehiculo = relationship("modelo", back_populates="vehiculosModelo")
+    # marcaVehiculo = relationship("marca", back_populates="vehiculosMarca")
+    # accesoriosVehiculo = relationship("accesorio", back_populates="vehiculoAccesorio")
+

@@ -12,4 +12,4 @@ class blogExperiencia(Base):
     usuarioIdBlogExperiencia = Column(Integer, ForeignKey("usuario.idUsuario"))
 
     # Relación con usuario
-    usuarioBlogExperiencia = relationship("usuario", back_populates="blogsUsuario")
+    # usuarioBlogExperiencia = relationship("usuario", back_populates="blogsUsuario")

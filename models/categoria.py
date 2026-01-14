@@ -10,4 +10,4 @@ class categoria(Base):
     nombreCategoria = Column(String(60))
 
     # Relación con modelos
-    modelosCategoria = relationship("modelo", back_populates="categoriaModelo")
+    # modelosCategoria = relationship("modelo", back_populates="categoriaModelo")

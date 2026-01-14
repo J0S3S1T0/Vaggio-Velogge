@@ -14,4 +14,4 @@ class accesorio(Base):
     vehiculoIdAccesorio = Column(Integer, ForeignKey("vehiculo.idVehiculo"))
 
     # Relación con vehículos
-    vehiculoAccesorio = relationship("vehiculo", back_populates="accesoriosVehiculo")
+    # vehiculoAccesorio = relationship("vehiculo", back_populates="accesoriosVehiculo")

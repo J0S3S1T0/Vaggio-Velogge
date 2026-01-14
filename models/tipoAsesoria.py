@@ -10,4 +10,4 @@ class tipoAsesoria(Base):
     descripcionTipoAsesoria = Column(String(200))
 
     # Relación con asesorías
-    asesoriasTipoAsesoria = relationship("asesoria", back_populates="tipoAsesoriaAsesoria")
+    # asesoriasTipoAsesoria = relationship("asesoria", back_populates="tipoAsesoriaAsesoria")

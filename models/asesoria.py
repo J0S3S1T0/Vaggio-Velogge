@@ -15,10 +15,10 @@ class asesoria(Base):
     asesorIdAsesoria = Column(Integer, ForeignKey("asesor.idAsesor"))
     tipoAsesoriaIdAsesoria = Column(Integer, ForeignKey("tipoAsesoria.idTipoAsesoria"))
 
-    # Relaciones con Usuario, asesor y tipo de asesoría
-    usuarioAsesoria = relationship("usuario", back_populates="asesoriasUsuario")
-    asesorAsesoria = relationship("asesor", back_populates="asesoriasAsesor")
-    tipoAsesoriaAsesoria = relationship("tipoAsesoria", back_populates="asesoriasTipoAsesoria")
+    # # Relaciones con Usuario, asesor y tipo de asesoría
+    # usuarioAsesoria = relationship("usuario", back_populates="asesoriasUsuario")
+    # asesorAsesoria = relationship("asesor", back_populates="asesoriasAsesor")
+    # tipoAsesoriaAsesoria = relationship("tipoAsesoria", back_populates="asesoriasTipoAsesoria")
 
-    # Relación con servicio
-    serviciosAsesoria = relationship("servicio", back_populates="asesoriaServicio")
+    # # Relación con servicio
+    # serviciosAsesoria = relationship("servicio", back_populates="asesoriaServicio")
